@@ -1,18 +1,17 @@
 # TravelSelection
 
-# Foobar
+# 프로젝트 소개
 
 Foobar is a Python library for dealing with word pluralization.
 
-## Installation
-
+## 개발 기간 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
 pip install foobar
 ```
 
-## Usage
+## 개발자 소개
 
 ```python
 import foobar
@@ -27,13 +26,13 @@ foobar.pluralize('goose')
 foobar.singularize('phenomena')
 ```
 
-## Contributing
+## 개발환경
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
+## 주요 기능 
 
 [MIT](https://choosealicense.com/licenses/mit/)
