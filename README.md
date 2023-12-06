@@ -28,9 +28,15 @@ TravelSelection은 간단한 성향 테스트를 통해 본인에게 어울리�
 ```bash
 git clone https://github.com/BeckyBaek/TravelSelection.git
 
+2. 프로젝트 폴더로 이동<br>
+
+클론이 완료되면, 생성된 프로젝트 폴더로 이동하세요.
+
+cd TravelSelection 
 
 
-## 프로젝트 기능 설명 
+
+
 
 
 
