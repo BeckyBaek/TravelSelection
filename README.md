@@ -11,7 +11,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 pip install foobar
 ```
 
-## 개발자 소개
+## 프로젝트 사용법 
 
 ```python
 import foobar
@@ -26,13 +26,13 @@ foobar.pluralize('goose')
 foobar.singularize('phenomena')
 ```
 
-## 개발환경
+## 프로젝트 기능 설명 
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## 주요 기능 
+## 저작권 및 사용권 정보
 
 [MIT](https://choosealicense.com/licenses/mit/)
