@@ -21,9 +21,9 @@ TravelSelection은 간단한 성향 테스트를 통해 본인에게 어울리�
 
 
 ## 프로젝트 사용법 
-### 1. 레포지토리 클론<br>
+1. 레포지토리 클론<br>
 
-먼저, 당신의 로컬 컴퓨터에 이 레포지토리를 클론해야 합니다. 터미널을 열고 다음 명령어를 실행하세요:
+먼저, 당신의 로컬 컴퓨터에 이 레포지토리를 클론해야 합니다. 터미널을 열고 다음 명령어를 실행하세요:<br><br>
 
 ```bash
 git clone https://github.com/BeckyBaek/TravelSelection.git
