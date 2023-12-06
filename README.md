@@ -27,8 +27,8 @@ TravelSelection은 간단한 성향 테스트를 통해 본인에게 어울리�
    - 다음과 같이 입력해준다.`git clone https://github.com/BeckyBaek/TravelSelection.git`
    - 폴더가 생성된 후 폴더 안으로 들어가서 client 폴더 안으로 들어가서 명령어를 입력하면 그 안에 포함되어 있는 모듈들이 전부 설치된다.`$ npm install`
 
-  **시작화면**
-  html 파일에서 index.html 파일을 실행하시면 '홈'화면이 나타납니다! <br><br>
+  **시작화면**<br>
+  html 파일에서 **index.html** 파일을 실행하시면 '홈'화면이 나타납니다! <br><br>
 
   그럼, 나만의 여행지로 출발할 준비 끝! 
 
