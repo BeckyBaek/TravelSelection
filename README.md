@@ -16,7 +16,7 @@ TravelSelection은 간단한 성향 테스트를 통해 본인에게 어울리�
 
 
 ## 프로젝트 미리보기 
-[프로젝트 미리보기]: https://youtu.be/m97cOvtwgkk
+[프로젝트 미리보기]: (https://youtu.be/m97cOvtwgkk).
 
 
 ## 프로젝트 사용법 
