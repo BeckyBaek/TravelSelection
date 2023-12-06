@@ -66,5 +66,3 @@
  ="https://img.shields.io/badge/CSS3-1572B6.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/>
  <img alt="Javascript" src
  ="https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white"/>
-
-## 🔍저작권 및 사용권 정보
