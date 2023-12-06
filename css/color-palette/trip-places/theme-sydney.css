@@ -1,0 +1,75 @@
+@import url("../../layout/places-layout.css");
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+/* Path: css/color-palette/theme-cancun.css */
+
+/* Adapt to suitable contrast colors */
+body {
+  font-family: "SUITE-Regular", sans-serif;
+  background-color: #fad961;
+  background-image: linear-gradient(90deg, #fad961 0%, #8ada34 100%);
+}
+.background-polynesian-blue {
+  background-color: #094d92;
+  color: #ffffff;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-polynesian-blue:hover {
+  background-color: #924e09;
+  color: #ffffff;
+}
+
+.background-moonstone {
+  background-color: #5eb1bf;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-moonstone:hover {
+  background-color: #bf6c5e;
+  color: #000000;
+}
+
+.background-flame {
+  background-color: #ee5622;
+  color: #ffffff;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-flame:hover {
+  background-color: #22baee;
+  color: #000000;
+}
+
+.background-champagne-pink {
+  background-color: #e5d4ce;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-champagne-pink:hover {
+  background-color: #cedfe5;
+  color: #000000;
+}
+
+.background-spring-green {
+  background-color: #00ff95;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-spring-green:hover {
+  background-color: #ff006a;
+  color: #000000;
+}

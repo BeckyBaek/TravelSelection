@@ -1,0 +1,76 @@
+@import url("../../layout/places-layout.css");
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+/* Path: css/color-palette/theme-cancun.css */
+
+/* Adapt to suitable contrast colors */
+body {
+  font-family: "SUITE-Regular", sans-serif;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+
+.background-non-photo-blue {
+  background-color: #92dce5;
+  color: #081f22;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-non-photo-blue:hover {
+  background-color: #e59b92;
+  color: #31100c;
+}
+
+.background-madder {
+  background-color: #a71d31;
+  color: #fceef5;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-madder:hover {
+  background-color: #1da793;
+  color: #eefcfa;
+}
+
+.background-timberwolf {
+  background-color: #ddcecd;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-timberwolf:hover {
+  background-color: #cddcdd;
+  color: #161f20;
+}
+
+.background-russian-violet {
+  background-color: #392061;
+  color: #ffffff;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-russian-violet:hover {
+  background-color: #486120;
+  color: #f3f8ea;
+}
+
+.background-atomic-tangerine {
+  background-color: #ff9686;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-atomic-tangerine:hover {
+  background-color: #86dfff;
+  color: #000000;
+}

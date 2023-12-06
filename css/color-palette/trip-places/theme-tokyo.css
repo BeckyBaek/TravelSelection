@@ -1,0 +1,150 @@
+@import url("../../layout/places-layout.css");
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+/* Path: css/color-palette/theme-cancun.css */
+
+/* Adapt to suitable contrast colors */
+body {
+  font-family: "SUITE-Regular", sans-serif;
+  background-color: #fbda61;
+  background-image: linear-gradient(90deg, #fbda61 0%, #ee5acd 100%);
+}
+
+@import url("../../layout/places-layout.css");
+
+.background-murrey {
+  background-color: #87255b;
+  color: #ffffff;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-murrey:hover {
+  background-color: #258751;
+  color: #000000;
+}
+
+.background-beige {
+  background-color: #dde0bd;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-beige:hover {
+  background-color: #c0bde0;
+  color: #000000;
+}
+
+.background-cyclamen {
+  background-color: #fe64a3;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-cyclamen:hover {
+  background-color: #64febf;
+  color: #000000;
+}
+
+.background-misty-rose {
+  background-color: #ffe5ec;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-misty-rose:hover {
+  background-color: #e5ffeb;
+  color: #000000;
+}
+
+.background-pink {
+  background-color: #ffc2d1;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-pink:hover {
+  background-color: #c2ffdc;
+  color: #000000;
+}
+
+.background-cherry-blossom-pink {
+  background-color: #ffb3c6;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-cherry-blossom-pink:hover {
+  background-color: #ff678d;
+  color: #000000;
+}
+
+.background-baker-miller-pink {
+  background-color: #ff8fab;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-baker-miller-pink:hover {
+  background-color: #ff8f8f;
+  color: #000000;
+}
+
+.background-carnation-pink {
+  background-color: #ffa6c9;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-carnation-pink:hover {
+  background-color: #ffa6a6;
+  color: #000000;
+}
+
+.background-olivine {
+  background-color: #9abf88;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-olivine:hover {
+  background-color: #dde5b6;
+  color: #000000;
+}
+
+.background-galucous {
+  background-color: #6987c9;
+  color: #ffffff;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-galucous:hover {
+  background-color: #c9ab69;
+  color: #000000;
+}
+
+.background-chill-red {
+  background-color: #e3170a;
+  color: #ffffff;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-chill-red:hover {
+  background-color: #0ad6e3;
+  color: #000000;
+}

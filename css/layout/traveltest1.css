@@ -1,0 +1,129 @@
+/* Grid Settings */
+header {
+  display: grid;
+}
+main {
+  display: grid;
+  grid-template-rows: 3fr 1fr 2fr 7fr;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.grid-container {
+  display: grid;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Gugi", sans-serif;
+  font-size: 2.5em;
+  text-shadow: 2px 2px #d3d3d3;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.progress-container {
+  width: 100%;
+  background: white;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+
+.progress-bar {
+  height: 20px;
+  background: linear-gradient(-45deg, #00bfff, #ff7f50, #00bfff);
+  background-size: 200% 200%;
+  width: 0%;
+  border-radius: 20px;
+  animation: ProgressShift 2s ease infinite;
+}
+
+@keyframes ProgressShift {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+#question {
+  font-family: "Gugi", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  top: 60px;
+  border-radius: 20px;
+  display: grid;
+}
+
+.quiz-container {
+  left: 50%;
+  background: white; /* Soft lavender background */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 500px;
+  margin: 100px;
+  display: grid;
+}
+
+.option {
+  display: block;
+  background-color: #f0f8ff; /* Kept the option color as it's already visually appealing */
+  padding: 15px;
+  margin: 5px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.option:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #12c2e9; /* A fresh blue that complements the green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #50b3a2; /* A darker shade of green for hover effect */
+  transform: scale(1.05); /* Slightly scale up the button on hover */
+}
+
+/* Responsive Design Adjustments */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  main {
+    width: 90%;
+    padding: 10px;
+  }
+  .quiz-container {
+    width: 90%;
+    margin: 20px;
+  }
+}

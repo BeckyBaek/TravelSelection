@@ -1,0 +1,138 @@
+@import url("../../layout/places-layout.css");
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+/* Path: css/color-palette/theme-cancun.css */
+
+/* Adapt to suitable contrast colors */
+body {
+  font-family: "SUITE-Regular", sans-serif;
+  background-color: #fad961;
+  background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+}
+
+@import url("../../layout/places-layout.css");
+
+.background-mantis {
+  background-color: #5fad56;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-mantis:hover {
+  background-color: #a456ad;
+  color: #ffffff;
+}
+
+.background-maya-blue {
+  background-color: #7ebce6;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-maya-blue:hover {
+  background-color: #e6a87e;
+  color: #000000;
+}
+
+.background-gamboge {
+  background-color: #ec9f05;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-gamboge:hover {
+  background-color: #0552ec;
+  color: #ffffff;
+}
+
+.background-cordovan {
+  background-color: #8a3033;
+  color: #ffffff;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-cordovan:hover {
+  background-color: #338a87;
+  color: #ffffff;
+}
+
+.background-rose-taupe {
+  background-color: #815e5b;
+  color: #ffffff;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-rose-taupe:hover {
+  background-color: #5b7e81;
+  color: #ffffff;
+}
+
+.background-duke-blue {
+  background-color: #390099;
+  color: #ffffff;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-duke-blue:hover {
+  background-color: #860099;
+  color: #ffffff;
+}
+
+.background-murrey {
+  background-color: #9e0059;
+  color: #ffffff;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-murrey:hover {
+  background-color: #00599e;
+  color: #ffffff;
+}
+
+.background-folly {
+  background-color: #ff0054;
+  color: #ffffff;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-folly:hover {
+  background-color: #00ffab;
+  color: #000000;
+}
+
+.background-pantone-orange {
+  background-color: #ff5400;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-pantone-orange:hover {
+  background-color: #00abff;
+  color: #ffffff;
+}
+
+.background-amber {
+  background-color: #ffbf00;
+  color: #000000;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+}
+
+.background-amber:hover {
+  background-color: #ffd300;
+  color: #000000;
+}

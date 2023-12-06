@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traveltest.</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gugi&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/layout/traveltest1.css" />
+    <style>
+      #flyingAirplane {
+        position: absolute;
+        left: 0;
+        top: 30%;
+        scale: 0.5;
+        transition: left 2s cubic-bezier(0.19, 0.91, 1, -0.58),
+          opacity 300ms linear;
+      }
+
+      #fadeInMainTag {
+        display: none;
+        opacity: 0;
+        transition: opacity 800ms linear;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="airplane-icon.png" id="flyingAirplane" />
+
+    <main id="fadeInMainTag">
+      <header>
+        <h1 style="text-align: center">
+          내 마음속에 꿈틀거리는 여행지를 찾아보자!
+        </h1>
+      </header>
+      <div class="grid-container" style="text-align: center">
+        <div class="progress-container">
+          <div id="progress-bar" class="progress-bar"></div>
+        </div>
+      </div>
+      <div class="grid-container">
+        <div id="question" class="question">
+          <h5>질문이 여기에 표시됩니다.</h5>
+        </div>
+
+        <div class="quiz-container" id="quiz-container">
+          <div id="option-container">
+            <!-- 옵션들이 여기에 들어갑니다. -->
+          </div>
+          <div class="controls">
+            <button id="previous">이전</button>
+            <button id="next">다음</button>
+          </div>
+        </div>
+      </div>
+
+      <script src="../../javascript/question_for_travel.js"></script>
+    </main>
+    <script src="airplane.js"></script>
+  </body>
+</html>

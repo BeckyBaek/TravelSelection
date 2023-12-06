@@ -1,0 +1,296 @@
+@font-face {
+  font-family: "양진체";
+  src: url("https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Giants-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "양진체", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 7fr 1.5fr;
+  gap: 20px;
+}
+
+/* For Rightside Navigation */
+aside {
+  background-color: #cdf5fd;
+  max-width: 100px;
+  position: relative; /* Changed from fixed to relative */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside:hover {
+  transform: translateY(
+    -5px
+  ); /* Slightly raise the aside on hover for a "lifting" effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* A deeper shadow on hover for emphasis */
+}
+li.no-bullet {
+  list-style-type: none;
+}
+#otherPlaces {
+  text-align: left;
+  padding: 0px;
+}
+
+aside button {
+  font-family: "Giants-Bold", sans-serif;
+  background-color: #cdf5fd; /* A pleasant button color */
+  color: black; /* White text for contrast */
+  padding: 10px 15px; /* Adequate padding for clickability */
+  margin: 5px 0; /* Space between buttons */
+  border: none; /* Remove default border */
+  border-radius: 50px; /* Consistent rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+.contents-container {
+  display: grid;
+}
+
+aside button:hover {
+  background-color: #a0e9ff; /* A darker shade on hover for interactive feedback */
+}
+
+/* If you have other interactive elements like lists inside the aside, add similar hover effects: */
+aside ul li a {
+  transition: background-color 0.3s ease; /* Smooth transition for hover state */
+}
+
+aside ul li a:hover {
+  background-color: #bdc3c7; /* A slightly darker shade for hover state */
+}
+
+.aside-container {
+  display: grid;
+  height: 50px;
+  position: sticky;
+  top: 10px;
+  width: 200px;
+}
+
+.aside-container aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  height: 100%; /* Adjust as needed */
+}
+
+.button-container {
+  margin: 5px; /* Optional: add some space between the buttons */
+  /* Add other styles for your button-container here */
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+ul#anchor {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+ul#anchor li {
+  list-style-type: none;
+}
+
+ul#anchor li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+ul#anchor li a:hover {
+  background-color: #ff5252;
+  color: white;
+  border-radius: 4px;
+}
+
+.category {
+  margin: 10px 0;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.category-title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ff5252;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.category ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.category li {
+  margin: 5px;
+  flex-basis: calc(50% - 10px);
+}
+
+.category li label {
+  margin-left: 5px;
+}
+
+.category span {
+  color: black;
+  font-style: italic;
+  font-size: smaller;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.luggages {
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between; /* This will place the child items evenly in the container */
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.luggage-type {
+  border: solid #ddd 1px;
+  margin: 10px;
+  flex: 1; /* This will allow each child to grow and fill the space evenly */
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 500px; /* Adjust height as necessary */
+}
+
+h3 {
+  color: #ff0000; /* Red color for emphasis */
+  text-transform: uppercase; /* Uppercase for headers */
+  margin-bottom: 10px;
+}
+
+.prohibited-items {
+  list-style-type: none; /* Remove default list style */
+  padding-left: 0; /* Remove padding */
+}
+
+.prohibited-items li {
+  background-color: #ffcccc; /* Light red background for emphasis */
+  color: #b22222; /* Dark red color for the text */
+  padding: 5px;
+  border: 1px solid #ff0000; /* Red border */
+  margin-bottom: 5px; /* Space between items */
+  font-weight: bold; /* Make text bold */
+  font-size: 1.1em; /* Slightly larger text */
+}
+
+.category h2 {
+  text-align: center;
+}
+.category p {
+  text-align: center;
+  color: gray;
+}
+
+.luggage-item {
+  text-align: center;
+  position: relative;
+  list-style-type: none;
+  cursor: pointer;
+  left: 20%;
+  margin: 10px 0; /* Add vertical margin */
+  padding: 10px 15px; /* Increase padding for better readability */
+  border: 1px solid #ccc;
+  background-color: #f0f0f0; /* Lighter background color for better contrast */
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Smooth background color transition */
+  display: inline-block; /* Display items inline-block so they appear next to each other */
+
+  /* Add a subtle box-shadow for depth */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.luggage-item:hover::after {
+  content: attr(data-luggage-type);
+  position: absolute;
+  top: 50%; /* Position vertically centered */
+  left: 100%; /* Position to the right of the item */
+  transform: translateY(-50%); /* Center vertically */
+  background-color: #333; /* Darker background color */
+  color: #fff; /* White text color for better contrast */
+  padding: 20px 45px; /* Increase padding for a larger hover box */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 14px; /* Adjust font size for better readability */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+#highlight {
+  color: red; /* 특정한 부분 빨간색으로 강조 표시*/
+}
+
+#smaller {
+  font-size: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; /* 두 박스 사이에 공간을 균등하게 배분 */
+}
+
+.left-box,
+.right-box {
+  flex: 1; /* 두 박스가 사용 가능한 공간을 균등하게 차지하도록 설정 */
+  /* 필요한 추가 스타일링 */
+  border: 1px solid black;
+  width: 100px;
+  height: 500px;
+  margin-right: 10px;
+  border-radius: 50px;
+  background-color: white;
+}
+.left-box img,
+.right-box img {
+  height: auto; /* This maintains the aspect ratio */
+  vertical-align: middle;
+  border-radius: 50px;
+}
+
+.left-box img {
+  width: 350px; /* Adjust this value as needed */
+  position: relative;
+  top: 50px;
+}
+.right-box img {
+  width: 300px; /* Adjust this value as needed */
+}

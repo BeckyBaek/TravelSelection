@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "TAEBAEKmilkyway";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "TAEBAEKmilkyway";
+}
+h1 {
+  padding: 10px;
+  position: relative;
+  top: 5px;
+  text-align: center;
+  font-family: "TAEBAEKmilkyway" sans-serif;
+  margin: 0px;
+}
+/* Travel destination video*/
+iframe {
+  padding: 10px;
+  position: relative;
+  top: 10px;
+  margin-left: 50vw;
+  transform: translate(-50%);
+  border-radius: 50px;
+}
+
+.result_description {
+  text-align: center;
+  margin: 10px;
+  position: relative;
+  margin: auto;
+  width: 800px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50px;
+}
+
+#result_summary {
+  font-size: x-large;
+  left: 10%;
+  width: 800px;
+  border: 0px;
+  margin: 0px;
+  background-color: none;
+}
+#result_comments {
+  margin: 0px;
+}
+#destination_container {
+  width: 400px;
+  border: 1px solid white;
+  position: absolute; /* Changed to absolute positioning */
+  left: 50%; /* Position halfway across the parent */
+  transform: translate(-50%, -50%); /* Adjust for the div's own dimensions */
+  text-align: center;
+  font-size: larger;
+  margin: 30px;
+}
+
+#retest {
+  position: fixed; /* Fix the div to a specific position on the screen */
+  left: 50%; /* Center the div horizontally */
+  margin: 40px;
+  transform: translateX(-50%); /* Adjust horizontally to truly center it */
+  width: 200px; /* Set the width of the div */
+  text-align: center; /* Center the text inside the div */
+}
+
+#retest a {
+  text-decoration: none;
+  display: block; /* Make the link fill the div */
+  padding: 10px; /* Add some padding inside the link */
+}

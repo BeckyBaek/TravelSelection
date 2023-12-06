@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/layout/places-layout.css" />
+    <title>Document</title>
+    <script src="../../javascript/places-info/dropdownNav.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>This is header</h1>
+      <hr />
+    </header>
+    <main>
+      <!-- main has a grid-->
+      <div class="nav-container">
+        <nav id="articles-nav" class="left-nav">
+          <ul>
+            <li><a href="#realtime">Realtime Info</a></li>
+            <li><a href="#first">Section 1</a></li>
+            <li><a href="#second">Section 2</a></li>
+            <li><a href="#third">Section 3</a></li>
+            <li><a href="#fourth">Section 4</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="contents-container">
+        <section id="realtime">
+          <a href="#articles-nav"><h1>Realtime Info</h1></a>
+
+          <article>
+            <h1>Weather</h1>
+            <p>This is a paragraph in article 1</p>
+          </article>
+          <article>
+            <h1>Exchange Rate</h1>
+            <p>This is a paragraph in article 2</p>
+          </article>
+          <article>
+            <h1>Time</h1>
+            <p>This is a paragraph in article 3</p>
+          </article>
+        </section>
+        <section id="first">
+          <a href="#articles-nav"><h1>Climate, Currency</h1></a>
+          <article>
+            <h1>Climate</h1>
+            <p>This is a paragraph in article 1</p>
+          </article>
+          <article>
+            <h1>Currency</h1>
+            <p>This is a paragraph in article 2</p>
+          </article>
+          <article>
+            <h1>Fashion</h1>
+            <p>This is a paragraph in article 3</p>
+          </article>
+        </section>
+        <section id="second">
+          <a href="#articles-nav"><h1>Places to Visit</h1></a>
+          <article>
+            <h1>Place 1</h1>
+            <p>This is a paragraph in article 1</p>
+          </article>
+          <article>
+            <h1>Place 2</h1>
+            <p>This is a paragraph in article 2</p>
+          </article>
+          <article>
+            <h1>Place 3</h1>
+            <p class="photo">
+              <img src="../../../images/mexico/market2.png" alt="Image 1" />
+              <img src="../../../images/mexico/cancun2.png" />
+            </p>
+          </article>
+        </section>
+        <section id="third">
+          <a href="#articles-nav"><h1>Foods</h1></a>
+          <article>
+            <h1>Food 1</h1>
+            <p>This is a paragraph in article 1</p>
+          </article>
+          <article>
+            <h1>Food 2</h1>
+            <p>This is a paragraph in article 2</p>
+          </article>
+          <article>
+            <h1>Food 3</h1>
+            <p>This is a paragraph in article 3</p>
+          </article>
+        </section>
+        <section id="fourth">
+          <a href="#articles-nav"><h1>Other Tips</h1></a>
+          <article>
+            <h1>Tip 1</h1>
+            <p>This is a paragraph in article 1</p>
+          </article>
+          <article>
+            <h1>Tip 2</h1>
+            <p>This is a paragraph in article 2</p>
+          </article>
+          <article>
+            <h1>Tip 3</h1>
+            <p>This is a paragraph in article 3</p>
+          </article>
+        </section>
+        <section id="fifth"></section>
+      </div>
+      <div id="aside-container">
+        <aside>
+          <button onclick="showPlacesList()">
+            Other Places
+            <div id="otherPlaces" hidden>
+              <ul>
+                <li><a href="#">Place 1</a></li>
+                <li><a href="#">Place 2</a></li>
+                <li><a href="#">Place 3</a></li>
+              </ul>
+            </div>
+          </button>
+
+          <button>
+            Equipments
+            <div hidden>
+              <ul>
+                <li><a href="#">Equipment 1</a></li>
+                <li><a href="#">Equipment 2</a></li>
+                <li><a href="#">Equipment 3</a></li>
+              </ul>
+            </div>
+          </button>
+          <button>
+            Other Tips
+            <div hidden>
+              <ul>
+                <li><a href="#">Tip 1</a></li>
+                <li><a href="#">Tip 2</a></li>
+                <li><a href="#">Tip 3</a></li>
+              </ul>
+            </div>
+          </button>
+        </aside>
+      </div>
+    </main>
+    <footer>
+      <p>Seoultech, 2023-2, Web Programming 백승은, 권준혁</p>
+    </footer>
+  </body>
+</html>

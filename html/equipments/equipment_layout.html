@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>equipments</title>
+    <link rel="stylesheet" href="../../css/layout/equipment.css" />
+  </head>
+  <body>
+    <header>
+      <h1>여행 가기 전 체크사항</h1>
+        <ul id="anchor">
+          <li><a href="#visa">필수 체크리스트</a></li>
+          <li><a href="#in-checked">수하물 확인</a></li>
+        </ul>
+    </header>
+    <main>
+      <div class="contents-container">
+        
+        <div class="category" id="visa">
+          <div class="category-title">비자가 필요한 여행지</div>
+          <ul>
+            <li>
+              <a
+                href=" https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply-ko.html"
+                target="blank"
+                >토론토(전자여행허가eTA)</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601#HowTo"
+                target="blank"
+                >시드니(전자여행허가or비자)</a
+              >
+            </li>
+            <li>
+              <a href="https://esta.cbp.dhs.gov" target="blank"
+                >뉴욕(전자여행허가ESTA)</a
+              >
+            </li>
+            <li>
+              <a href="https://www.visaforchina.cn/globle/" target="blank"
+                >하얼빈</a
+              >
+            </li>
+            <li>
+              <span><s>몽골</s></span>
+            </li>
+            <li>
+              <span><s>도쿄</s></span>
+            </li>
+            <li>
+              <span><s>홍콩</s></span>
+            </li>
+            <li>
+              <span><s>아이슬란드</s></span>
+            </li>
+            <li>
+              <span><s>칸쿤</s></span>
+            </li>
+            <li>
+              <span><s>산티아고</s></span>
+            </li>
+          </ul>
+        </div>
+        <!-- Category 2 -->
+        <div class="category" id="medicine">
+          <div class="category-title">상비약</div>
+          <ul>
+            <li>
+              <input type="checkbox" id="item1-6" name="item1-6" /><label
+                for="item1-6"
+                >종합감기약</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="item1-7" name="item1-7" /><label
+                for="item1-7"
+                >소화제</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="item1-8" name="item1-8" /><label
+                for="item1-8"
+                >진통제</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="item1-9" name="item1-9" /><label
+                for="item1-9"
+                >소염제</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="item1-10" name="item1-10" /><label
+                for="item1-10"
+                >여성위생용품</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="item1-11" name="item1-11" /><label
+                for="item1-11"
+                >반창고+연고</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="item1-12" name="item1-12" /><label
+                for="item1-12"
+                >모기기피제/버물리</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="item1-13" name="item1-13" /><label
+                for="item1-13"
+                >멀미약</label
+              >
+            </li>
+            <!-- More items... -->
+          </ul>
+        </div>
+
+        <div class="category" id="document">
+          <div class="category-title">출력물</div>
+          <ul>
+            <li>
+              <input type="checkbox" id="item1-14" name="item1-14" /><label
+                for="item1-14"
+                >여권사본</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="item1-15" name="item1-15" /><label
+                for="item1-15"
+                >비자</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="item1-16" name="item1-16" /><label
+                for="item1-16"
+                >항공티켓</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="item1-17" name="item1-17" /><label
+                for="item1-17"
+                >각종바우처</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="item1-18" name="item1-18" /><label
+                for="item1-18"
+                >여행자보험</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="item1-19" name="item1-19" /><label
+                for="item1-19"
+                >비상연락망(대사관 등)</label
+              >
+            </li>
+            <!-- More items... -->
+          </ul>
+        </div>
+        <!-- More categories... -->
+        <div class="category" id="in-checked">
+          <h2>기내수하물일까? 위탁수하물일까?</h2>
+          <p>
+            마우스를 올려 정답을 확인해 보세요!<br />
+            <span id="smaller"
+              >*항공사마다 규정이 다르니, 정확한건 해당 항공사 규정 확인
+              필수*</span
+            >
+          </p>
+          <ul>
+            <li class="luggage-item" data-luggage-type="기내">
+              <span>보조배터리</span>
+            </li>
+            <li class="luggage-item" data-luggage-type="기내">
+              <span>충전기 & 멀티탭</span>
+            </li>
+            <li class="luggage-item" data-luggage-type="기내">
+              <span>노트북 / 태블릿 / 카메라</span>
+            </li>
+            <li class="luggage-item" data-luggage-type="위탁">
+              <span>100ml <span id="highlight">이상</span> 액체</span>
+            </li>
+          </ul>
+          <div class="row">
+            <div class="left-box">
+              <p>
+                <img
+                  src="../../html/equipments/cabin1.png"
+                  alt="cabin-bag"
+                />
+              </p>
+              <!-- 내용 -->
+            </div>
+            <div class="right-box">
+              <p>
+                <img
+                  src="../../html/equipments/checked.png"
+                  alt="checked-bag"
+                />
+              </p>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div class="aside-container">
+        <aside>
+          <script src="../../javascript/places-info/dropdownNav.js"></script>
+
+          <div class="button-container">
+            <button onclick="showEssentialList()">
+              <a href="../../html/index.html"
+                >홈</a
+              >
+            </button>
+          </div>
+
+          <div>
+            <button onclick="showPlacesList()">
+              여행지
+              <ul id="otherPlaces" hidden>
+                <li class="no-bullet"><a href="../../html/places-info/hongkong/hongkong.html">홍콩</a></li>
+                <li class="no-bullet"><a href="../../html/places-info/mexico/cancun1.html">칸쿤</a></li>
+                <li class="no-bullet"><a href="../../html/places-info/japan/tokyo.html">도쿄</a></li>
+                <li class="no-bullet"><a href="../../html/places-info/newyork/newyork.html">뉴욕</a></li>
+                <li class="no-bullet"><a href="../../html/places-info/mongolia/mongolia.html">몽골</a></li>
+                <li class="no-bullet"><a href="../../html/places-info/china/harbin.html">하얼빈</a></li>
+                <li class="no-bullet"><a href="../../html/places-info/canada/tornonto.html">토론토</a></li>
+                <li class="no-bullet"><a href="../../html/places-info/australia/sydney.html">시드니</a></li>
+                <li class="no-bullet"><a href="../../html/places-info/chile/santiago.html">산티아고</a></li>
+                <li class="no-bullet"><a href="../../html/places-info/iceland/iceland.html">아이슬란드</a></li>
+              </ul>
+            </button>
+          </div>
+
+          <div class="button-container">
+            <button onclick="showEssentialList()">
+              <a href="../../html/where-to-go/traveltest.html"
+                >테스트<br> 하러가기 </a
+              >
+            </button>
+          </div>
+        </div>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>
