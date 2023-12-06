@@ -16,7 +16,8 @@ TravelSelection은 간단한 성향 테스트를 통해 본인에게 어울리�
 
 
 ## 프로젝트 미리보기 
-[![Youtube]: (http://img.youtube.com/vi/'m97cOvtwgkk&feature'/0.jpg)](https://youtu.be/m97cOvtwgkk?si=pJT8zeEdXLFTPJEf).
+[![Youtube]: (http://img.youtube.com/vi/'m97cOvtwgkk&feature'/0.jpg)](https://youtu.be/m97cOvtwgkk?si=pJT8zeEdXLFTPJEf).<br>
+👆 해당 링크를 클릭하면 <TravelSelection>이 어떤 화면으로 구성되는지 미리 볼 수 있습니다. (이상한 링크 아니니 걱정마세요😉)
 
 
 ## 프로젝트 사용법 
