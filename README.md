@@ -1,8 +1,9 @@
 # My TravelSelection
 
-# 😎프로젝트 소개😎
+# 😎프로젝트 소개
 
-TravelSelection은 간단한 성향 테스트를 통해 본인에게 어울리는 여행지를 추천해주고, 해당 여행지에 대한 간단한 정보를 얻을 수 있습니다. 
+여행은 가고싶은데.. 어딜 가야 할 지 모르겠다면!!🤔 <br>이보다 좋은 여행지 추천 테스트는 없을걸요? 여행지 추천받고 여행지 정보, 준비물까지 싹 다 한번에 알 수 있다니 ! <br><br>
+**TravelSelection**은 간단한 성향 테스트를 통해 본인에게 어울리는 여행지를 추천해주고, 해당 여행지에 대한 간단한 정보를 얻을 수 있습니다. 
 <br><br>
 테스트 문항은 총 5개이며, 결과에 따라<br><br> '칸쿤🇲🇽','뉴욕🇺🇸',도쿄🇯🇵','몽골🇲🇳','홍콩🇭🇰','하얼빈🇨🇳','시드니🇦🇺','토론토🇨🇦','산티아고🇨🇱','아이슬란드🇮🇸'<br><br> 중 하나를 추천해주게 됩니다.<br>
 
@@ -59,5 +60,11 @@ TravelSelection은 간단한 성향 테스트를 통해 본인에게 어울리�
     - 마지막으로, 오른쪽에 있는 네비바에서 홈,다른 여행지, 테스트 하러가기로 이동할 수 있습니다. 
 
 ## 💻 개발환경 
+<img alt="HTML" src
+ ="https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/>
+ <img alt="CSS" src
+ ="https://img.shields.io/badge/CSS3-1572B6.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/>
+ <img alt="Javascript" src
+ ="https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white"/>
 
 ## 🔍저작권 및 사용권 정보
